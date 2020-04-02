@@ -1,0 +1,37 @@
+.video
+  position: relative
+  width: 100%
+  height: 633px
+  background: url(../img/video-bg.jpg) no-repeat center
+  &__play
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(50% - 61px);
+
+.advant
+  width: 100%  
+  max-width: 1160px
+  position: absolute
+  margin-top: -150px
+  box-shadow: 0 0 22px 5px rgba(34, 34, 34, 0.05);
+  &__row
+    width: 100%
+    height: 323px
+    background: url(../img/grafic-bg.png) no-repeat center $light
+    display: flex
+    justify-content: space-around
+    align-items: center
+  &__col
+    display: flex
+    flex-direction: column
+    align-items: center
+  &__num
+    font-size: 62px
+    letter-spacing: -3.34px
+    color: $red
+    font-weight: 700
+  &__description
+    font-size: 22px
+    font-weight: 700
