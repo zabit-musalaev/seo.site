@@ -306,7 +306,7 @@ header {
     color: #38393b;
     margin-bottom: 46px; }
   .footer__line {
-    width: 866px;
+    max-width: 866px;
     height: 1px;
     background-color: #38393b;
     margin: auto;
